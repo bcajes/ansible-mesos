@@ -21,3 +21,6 @@ mesos_zookeeper_masters: "zk://{{ zookeeper_hostnames }}/mesos"
 # Containerizer
 mesos_containerizers: "mesos"
 mesos_executor_timeout: "5mins"
+
+#hadoop
+hadoop_home: "/data/hadoop-2.6.0"
