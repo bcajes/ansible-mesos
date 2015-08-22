@@ -14,6 +14,13 @@ export MESOS_HOSTNAME="{{ mesos_hostname }}"
 export MESOS_PORT="{{ mesos_port }}"
 export HADOOP_HOME="{{hadoop_home}}"
 export JAVA_HOME="{{java_home}}"
+export HADOOP_INSTALL=${{hadoop_home}}
+export PATH="$PATH:$HADOOP_INSTALL/bin"
+export PATH="$PATH:$HADOOP_INSTALL/sbin"
+export HADOOP_MAPRED_HOME="$HADOOP_INSTALL"
+export HADOOP_COMMON_HOME="$HADOOP_INSTALL"
+export HADOOP_HDFS_HOME="$HADOOP_INSTALL"
+export HADOOP_COMMON_LIB_NATIVE_DIR="$HADOOP_INSTALL/lib/native"
 
 
 
