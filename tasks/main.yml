@@ -12,3 +12,5 @@
   when: ansible_os_family == "RedHat"
 
 - include: mesos.yml
+
+- debug: var=mesos_install_mode
