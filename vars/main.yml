@@ -1,7 +1,7 @@
 ---
 mesos_playbook_version: "0.3.3"
 
-mesos_install_mode: "master" # {master|slave|master-slave}
+mesos_install_mode: "slave" # {master|slave|master-slave}
 mesos_version: "0.21.2"
 
 # conf file settings
